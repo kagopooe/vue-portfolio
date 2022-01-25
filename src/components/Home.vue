@@ -1,9 +1,10 @@
 <template>
   <div class="home">
     <header>
-        <div class="header">
-      <h2> My Portfolio</h2><br><br>
-      <!-- <p id="p-header">test</p> -->
+      <div class="header">
+        <h2>My Portfolio</h2>
+        <br /><br />
+        <!-- <p id="p-header">test</p> -->
       </div>
     </header>
     <main>
@@ -32,9 +33,9 @@
       </p>
       <hr />
       <p>
-        Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi
-        porta gravida at eget metus. Donec id elit non mi porta gravida at eget
-        metus. Aenean lacinia bibendum nulla sed consectetur.
+        Hello! Cras mattis consectetur purus sit amet fermentum. Donec id elit
+        non mi porta gravida at eget metus. Donec id elit non mi porta gravida
+        at eget metus. Aenean lacinia bibendum nulla sed consectetur.
       </p>
       <h3>Tristique Aenean Etiam Cras</h3>
       <p>
@@ -423,11 +424,10 @@ header h2 {
 }
 
 #logo {
-    width: 110px;
-    height: 90px;
-    margin-top: 20px;
+  width: 110px;
+  height: 90px;
+  margin-top: 20px;
 }
-
 
 /* #p-header {
     
