@@ -1,36 +1,29 @@
 <template>
   <div class="home">
     <header>
-      <div class="header">
-        <h2>My Portfolio</h2>
-        <br /><br />
-        <!-- <p id="p-header">test</p> -->
+      <div class="header" @click="reload()">
+        <h2>My Portfolio // Kago Pooe</h2>
+        <h3>Aspiring Web Developer & Data Analyst</h3>
       </div>
     </header>
     <main>
       <h2>
-        I was interested to see if I could make a scroll indicator
-        <a href="https://codepen.io/derekjp/pen/pJzpxB" target="_blank"
-          >like this</a
-        >
-        with just CSS.
+       Greetings, glad you've decided to take some time out of your day to have a look at my portfolio :)
       </h2>
-      <p>
-        You can! But maybe you shouldn't. This is an interesting consequence of
-        a bunch of hacks held together with duct tape. It uses z-index hacks,
-        gradient hacks and tricks with calc and viewport units.
-      </p>
-      <p>
-        Having said that, hacks are not always bad. I love hacks and many of us
-        have made quite a good living selling floats and clearfixes.
-      </p>
-      <p>
-        The techniques used here are well supported, if not conventional. If you
-        can read the CSS, understand how it works, and how to change it, and you
-        think this works better for you than JavaScript, feel free to implement
-        it. Just be aware of the z-index behaviour and possible conflict with
-        other CSS using negative z-index.
-      </p>
+      <h2>
+        I will make an attempt to keep things short & to the point. Here is a little bit about me:
+      </h2>
+      <div id="about-me">
+      <img  id="profile" src="../assets/images/profile.png">  
+      <ul id="about-text">
+        <li>I like technology</li>
+        <li>I am passionate about many Sports</li>
+        <li>I like mathematics and geometry</li>
+        <li>I also enjoy cooking (my cooking skills need some brushing up though)</li>
+        <li>My current obsession is finding loopholes in gambling markets to gain an advantage over bookmakers</li>
+        <li>I am inquisitive by nature so I enjoy broadening my horizons by learning new things</li>
+    </ul>
+      </div>
       <hr />
       <p>
         Hello! Cras mattis consectetur purus sit amet fermentum. Donec id elit
@@ -374,14 +367,21 @@
 </template>
 
 <style>
+* {
+  /* margin:0; */
+  padding:0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 header {
   position: fixed;
   top: 0;
-  height: 125px;
+  height: 121px;
   width: 100%;
   background: #151415;
   color: white;
@@ -410,7 +410,6 @@ main {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 1 rem;
   color: white;
 }
@@ -419,17 +418,71 @@ main {
   box-sizing: border-box;
 }
 
-header h2 {
+header {
   padding-left: 10px;
+  
+  
 }
 
-#logo {
-  width: 110px;
-  height: 90px;
-  margin-top: 20px;
+header h1 {
+  font-weight: bold;
 }
 
-/* #p-header {
-    
-} */
+header h3 {
+  font-style: italic;
+  color: silver;
+  margin-top: -5px;
+}
+
+#about-me {
+  display: flex;
+}
+
+#about-me img {
+  float: inline-start;
+  z-index: -1;
+}
+
+#about-text {
+  margin: 85px 0px;
+  font-size: 1.3rem;
+  list-style: none;
+  padding-left: 1em;
+  font-weight: bold;
+  
+
+}
+
+#about-text  li{
+padding-top: 20px;
+}
+
+#about-text > li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1.1em; 
+  z-index: -1;
+  font-weight: bold;
+
+}
+
+
+
 </style>
+
+<script>
+export default {
+  methods: {
+    reload() {
+      window.location.reload();
+    }
+  }
+    
+  }
+
+
+
+
+
+</script>
+
