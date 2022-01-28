@@ -21,16 +21,30 @@
         <li>I like mathematics and geometry</li>
         <li>I also enjoy cooking (my cooking skills need some brushing up though)</li>
         <li>My current obsession is finding loopholes in gambling markets to gain an advantage over bookmakers</li>
-        <li>I am inquisitive by nature so I enjoy broadening my horizons by learning new things</li>
+        <li>I am inquisitive by nature, so I enjoy broadening my horizons by learning new things</li>
     </ul>
       </div>
       <hr />
-      <p>
-        Hello! Cras mattis consectetur purus sit amet fermentum. Donec id elit
-        non mi porta gravida at eget metus. Donec id elit non mi porta gravida
-        at eget metus. Aenean lacinia bibendum nulla sed consectetur.
-      </p>
+      <div class="Skills">
+        <br>
+        <h2>I am aspiring to have a Full-Stack's Developer's skill set but since I really enjoying with numbers, my main passion is the data facet. 
+           I am in my element when working with with sports data/analytics but I working with other data as well. Here are my main skills: 
+        </h2>
+          <div class="skill-icons">
+            <span class="iconify" data-icon="akar-icons:html-fill"></span> 
+            <span class="iconify" data-icon="akar-icons:css-fill"></span>
+            <span class="iconify" data-icon="akar-icons:github-fill"></span>
+            <span class="iconify" data-icon="cib:jupyter"></span>
+            <span class="iconify" data-icon="simple-icons:pandas"></span>
+            <span class="iconify" data-icon="ion:logo-tableau"></span>
+            
+        
+
+          </div>
+
+      </div>
       <h3>Tristique Aenean Etiam Cras</h3>
+
       <p>
         Donec id elit non mi porta gravida at eget metus. Donec ullamcorper
         nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra
@@ -420,7 +434,7 @@ main {
 
 header {
   padding-left: 10px;
-  
+  cursor: context-menu;
   
 }
 
@@ -466,17 +480,49 @@ padding-top: 20px;
 
 }
 
+hr {
+  border: 3px solid grey;
+  border-radius: 3px;
+}
+
+.skill-icons {
+   font-size: 135px;
+   display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.iconify {
+  padding-right: 10px;
+}
+
+
+
+
 
 
 </style>
 
 <script>
 export default {
+  
+  data() {
+
+
+
+
+  },
+  
+  
   methods: {
     reload() {
       window.location.reload();
-    }
-  }
+    },
+
+
+  },
+
+
     
   }
 
