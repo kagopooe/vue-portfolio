@@ -16,8 +16,8 @@
       <div id="about-me">
       <img  id="profile" src="../assets/images/profile.png">  
       <ul id="about-text">
-        <li>I like technology</li>
-        <li>I am passionate about many Sports</li>
+        <li>I have an almost natural fascination with technology</li>
+        <li>I am passionate about many Sports. </li>
         <li>I like mathematics and geometry</li>
         <li>I also enjoy cooking (my cooking skills need some brushing up though)</li>
         <li>My current obsession is finding loopholes in gambling markets to gain an advantage over bookmakers</li>
@@ -53,14 +53,14 @@
          <figure class="snip1192">
   <blockquote>Kago is a great colleague and shows much potential as a web developer. He is well spoken even though he is very reticent"</blockquote>
   <div class="author">
-    <img src="src/assets/images/mbreda.jpg" alt="sq-sample1"/>
+    <img src="https://i.postimg.cc/Tp63Qy0r/mbreda.jpg" alt="mbreda"/>
     <h5>Mugammad<span> Classmate</span></h5>
   </div>
 </figure>
 <figure class="snip1192 hover">
   <blockquote>"Kago has a great eye for design. From what I have observed, he is extremely focused and very attentive. He possesses an exceptional work ethic and an insatiable desire for achieving his goals."</blockquote>
   <div class="author">
-    <img src="src/assets/images/ndeem.jpg" alt="sq-sample24"/>
+    <img src="https://i.postimg.cc/w7QTr64n/ndeem.jpg" alt="sq-sample24"/>
     <h5>Nadeem<span> Classmate</span></h5>
   </div>
 </figure>
@@ -68,9 +68,28 @@
   <blockquote>"Kago is a talented individual who has good attention to detail. He has the potential to do great things."</blockquote>
   <div class="author">
     <img src="src/assets/images/alex.jpg" alt="sq-sample29"/>
-    <h5>Alex<span> Lecturer</span></h5>
+    <h5>Emihle<span>Classmate</span></h5>
   </div>
 </figure>
+
+<!-- <figure class="snip1192">
+  <blockquote>"Kago is a talented individual who has good attention to detail. He has the potential to do great things."</blockquote>
+  <div class="author">
+    <img src="src/assets/images/alex.jpg" alt="sq-sample29"/>
+    <h5>Alex<span> Lecturer</span></h5>
+  </div>
+</figure> -->
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
@@ -79,7 +98,7 @@
       <div class='contact-section'>
 <section id="contact">
   
-  <h3 class="section-header">Contact</h3>
+  <h3 class="section-header">Feel free to get in touch with me. </h3>
   
   <div class="contact-wrapper">
   
@@ -101,7 +120,7 @@
 
       <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
       
-      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+      <button class="btn btn-secondary text-white send-button" id="submit" type="submit" value="SEND">
         <div class="alt-send-button">
           <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
         </div>
@@ -117,7 +136,7 @@
         <ul class="contact-list">
           <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Cape Town, South Africa</span></i></li>
           
-          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          <li class="list-item"><i class="fa fa-telegram fa-2x"><span class="contact-text telegram"><a href="tel:1-212-555-5555" title="Telegram">Telegram</a></span></i></li>
           
           <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">kagopooe@gmail.com</a></span></i></li>
           
@@ -129,13 +148,13 @@
             <i class="fa fa-github" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            <i class="fa fa-pie-chart" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
             <i class="fa fa-twitter" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <i class="fa fa-youtube" aria-hidden="true"></i></a>
           </li>       
         </ul>
         <hr>

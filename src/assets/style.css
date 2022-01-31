@@ -5,7 +5,7 @@
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 figure.snip1192 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
@@ -98,9 +98,10 @@ figure.snip1192 .author h5 span {
   #contact {
     width: 100%;
     height: 100%;
+    /* margin-left: 0; */
   }
   
-  .section-header {
+  /* .section-header {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
@@ -108,7 +109,7 @@ figure.snip1192 .author h5 span {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 6px;
-  }
+  } */
   
   .contact-wrapper {
     display: flex;
@@ -124,14 +125,13 @@ figure.snip1192 .author h5 span {
   .form-horizontal {
     /*float: left;*/
     max-width: 400px;
-    font-family: 'Lato';
     font-weight: 400;
   }
   
   .form-control, 
   textarea {
     max-width: 400px;
-    background-color: #000;
+    background-color: #aaa;
     color: #fff;
     letter-spacing: 1px;
   }
@@ -142,6 +142,8 @@ figure.snip1192 .author h5 span {
     width: 400px;
     overflow: hidden;
     transition: all .2s ease-in-out;
+    background-color: rgb(27,27,27);
+    border: none;
   }
   
   .alt-send-button {
@@ -153,12 +155,14 @@ figure.snip1192 .author h5 span {
   .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
+    font: 700 12px 'Oswald', sans-serif;
     letter-spacing: 2px;
   }
   
   .alt-send-button:hover {
     transform: translate3d(0px, -29px, 0px);
+    /* background-color: rgb(27,27,27); */
+    background-size: auto;
   }
   
   /* Begin Right Contact Page */
@@ -179,7 +183,7 @@ figure.snip1192 .author h5 span {
   }
   
   .contact-text {
-    font: 300 18px 'Lato', sans-serif;
+    font: 300 18px 'Oswald', sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
   }
@@ -188,7 +192,7 @@ figure.snip1192 .author h5 span {
     margin-left: 62px;
   }
   
-  .phone {
+  .telegram {
     margin-left: 56px;
   }
   
@@ -264,16 +268,10 @@ figure.snip1192 .author h5 span {
     color: #000;
   }
   
-  /* .copyright {
-    font: 200 14px 'Oswald', sans-serif;
-    color: #555;
-    letter-spacing: 1px;
-    text-align: center;
-  } */
-  
   hr {
     border-color: rgba(255,255,255,.6);
   }
+
   
   /* Begin Media Queries*/
   @media screen and (max-width: 850px) {

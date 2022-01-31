@@ -33,7 +33,7 @@
 
 #app {
 
-font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 
