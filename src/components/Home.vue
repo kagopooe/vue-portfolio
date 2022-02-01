@@ -42,6 +42,75 @@
           </div>
           
           <h4 id="hover-confuse">Hover over the icons if you're unsure of what they are</h4>
+        
+        <div class="project-section">
+            <div class="slider">
+      <div class="slide active">
+        <img src="sunrise.jpg" alt="">
+        <div class="info">
+          <h2>Winter Mountains</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="nike-sb.jpg" alt="">
+        <div class="info">
+          <h2>Tropical Desert</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="nature.jpg" alt="">
+        <div class="info">
+          <h2>Steaming Volcanoes</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="archi.jpg" alt="">
+        <div class="info">
+          <h2>Mountain River</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="nike-sb(1).jpg" alt="">
+        <div class="info">
+          <h2>Egypt Pyramids</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
         </div>
         
         <br>
@@ -104,7 +173,8 @@
   
   <!-- Left contact page --> 
     
-    <form id="contact-form" class="form-horizontal" role="form">
+    <form id="contact-form" class="form-horizontal" role="form" action="https://formspree.io/f/moqredrj"
+  method="POST">
        
       <div class="form-group">
         <div class="col-sm-12">
@@ -337,7 +407,98 @@ export default {
 
   },
   
-  components: {}}
+  components: {},
+  
+  
+  mounted() {
+    const slider = document.querySelector(".slider");
+  const nextBtn = document.querySelector(".next-btn");
+  const prevBtn = document.querySelector(".prev-btn");
+  const slides = document.querySelectorAll(".slide");
+  const slideIcons = document.querySelectorAll(".slide-icon");
+  const numberOfSlides = slides.length;
+  var slideNumber = 0;
+  
+  //image slider next button
+  nextBtn.addEventListener("click", () => {
+    slides.forEach((slide) => {
+      slide.classList.remove("active");
+    });
+    slideIcons.forEach((slideIcon) => {
+      slideIcon.classList.remove("active");
+    });
+  
+    slideNumber++;
+  
+    if(slideNumber > (numberOfSlides - 1)){
+      slideNumber = 0;
+    }
+  
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+  });
+  
+  //image slider previous button
+  prevBtn.addEventListener("click", () => {
+    slides.forEach((slide) => {
+      slide.classList.remove("active");
+    });
+    slideIcons.forEach((slideIcon) => {
+      slideIcon.classList.remove("active");
+    });
+  
+    slideNumber--;
+  
+    if(slideNumber < 0){
+      slideNumber = numberOfSlides - 1;
+    }
+  
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+  });
+  
+  //image slider autoplay
+  var playSlider;
+  
+  var repeater = () => {
+    playSlider = setInterval(function(){
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+  
+      slideNumber++;
+  
+      if(slideNumber > (numberOfSlides - 1)){
+        slideNumber = 0;
+      }
+  
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    }, 4000);
+  }
+  repeater();
+  
+  //stop the image slider autoplay on mouseover
+  slider.addEventListener("mouseover", () => {
+    clearInterval(playSlider);
+  });
+  
+  //start the image slider autoplay again on mouseout
+  slider.addEventListener("mouseout", () => {
+    repeater();
+  });
+  
+
+  }
+  
+  
+  
+  
+  
+  }
 
   
 
