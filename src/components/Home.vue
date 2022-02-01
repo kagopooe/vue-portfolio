@@ -254,7 +254,7 @@
 
 <style>
 * {
-  /* margin:0; */
+  margin:0;
   padding:0;
   box-sizing: border-box;
 }
@@ -271,17 +271,23 @@ header {
   width: 100%;
   background: #151415;
   color: white;
+  /* z-index */
 }
 
 main {
   margin-top: 128px;
+  
 }
+
+
 
 @supports (height: 100vh) {
   body {
     background: linear-gradient(to right top, white 50%, grey 50%);
     background-size: 100% calc(100% - 100vh + 129px);
     background-repeat: no-repeat;
+    position: fixed;
+    /* z-index: 2; */
   }
 
   body:before {
@@ -290,7 +296,7 @@ main {
     top: 128px;
     bottom: 0;
     width: 100%;
-    z-index: -1;
+    z-index: -2;
     background: #151415;
   }
 }
@@ -298,10 +304,12 @@ main {
 body {
   font-size: 1 rem;
   color: white;
+  position: relative;
 }
 main {
   padding: 10px 10%;
   box-sizing: border-box;
+  z-index: -10;
 }
 
 header {
@@ -327,9 +335,14 @@ header h3 {
   display: flex;
 }
 
+#about-me * {
+  z-index: -1 !important;
+}
+
 #about-me img {
   float: inline-start;
   z-index: -1;
+  position: relative;
 }
 
 #about-text {
