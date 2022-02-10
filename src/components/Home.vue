@@ -75,72 +75,66 @@
           Hover over the icons if you're unsure of what they are
         </h4>
 
-        <div class="project-section">
-          <div class="slider">
-            <div class="slide active">
-              <img src="#" alt="" />
-              <div class="info">
-                <h2>Winter Mountains</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="#" alt="" />
-              <div class="info">
-                <h2>Tropical Desert</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="#" alt="" />
-              <div class="info">
-                <h2>Steaming Volcanoes</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="#" alt="" />
-              <div class="info">
-                <h2>Mountain River</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="#" alt="" />
-              <div class="info">
-                <h2>Egypt Pyramids</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div class="navigation">
-              <i class="fas fa-chevron-left prev-btn"></i>
-              <i class="fas fa-chevron-right next-btn"></i>
-            </div>
-            <div class="navigation-visibility">
-              <div class="slide-icon active"></div>
-              <div class="slide-icon"></div>
-              <div class="slide-icon"></div>
-              <div class="slide-icon"></div>
-              <div class="slide-icon"></div>
-            </div>
-          </div>
+ </div>
+  <div class="proj-container">
+   
+     <div class="heading">
+      <h3>Here are a few of my projects: </h3>
+    </div>
+    <div class="row">
+      <div class="card">
+        <div class="card-header">
+          <h1>Basic Calculator</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Made a Calculator using Bootstrap and JavaScript. Used DOM manipuation to send data to the HTML and added code to give the calculator some functionality
+          </p>
+          <a href="#" class="btn">Github</a>
+          <a href="#" class="btn">Live</a>
         </div>
       </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Reaction Game</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Created a Reaction Game using a JavaScript Framework called Vue. The game measures the speed of the user's reaction time and reflexes in a simple manner
+          </p>
+          <a href="#" class="btn">Github</a>
+          <a href="#" class="btn">Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Pass Network</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Created a Pass Network visualization using Python and Pandas to derive insights from a local mid-tier football club. I used coding tools to generate the raw data. 
+          </p>
+          <a href="#" class="btn">Github</a>
+          <a href="#" class="btn">Live</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Data Manipulation</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Used a Python framework to extract pass information in order to gain specific data. The data was used to count a specific metric for a particular football team.
+          </p>
+          <a href="#" class="btn">Github</a>
+          <a href="#" class="btn">Live</a>
+        </div>
+      </div>
+      </div>
+
+  </div>
+
+
 
       <br />
       <hr />
@@ -157,61 +151,57 @@
             developer. He is well spoken even though he is very reticent"
           </blockquote>
           <div class="author">
-            <img src="https://i.postimg.cc/Tp63Qy0r/mbreda.jpg" alt="mbreda" />
-            <h5>Mugammad<span> Classmate</span></h5>
+            <img src="../assets/images/mbreda.JPG" />
+            <h4>Mugammad <span>- Classmate</span></h4>
           </div>
         </figure>
-        <figure class="snip1192 hover">
+        <figure class="snip1192">
           <blockquote>
             "Kago has a great eye for design. From what I have observed, he is
             extremely focused and very attentive. He possesses an exceptional
             work ethic and an insatiable desire for achieving his goals."
           </blockquote>
           <div class="author">
-            <img
-              src="https://i.postimg.cc/w7QTr64n/ndeem.jpg"
-              alt="sq-sample24"
-            />
-            <h5>Nadeem<span> Classmate</span></h5>
+            <img src="../assets/images/ndeem.JPG" alt="sq-sample24" />
+            <h4>Nadeem <span>- Classmate</span></h4>
           </div>
         </figure>
+        <figure class="snip1192">
+          <blockquote>
+            "Kago is a fellow classmate and he is genuinely a nice person. His
+            coding skills are great. I wish him nothing but the best in his
+            career."
+          </blockquote>
+          <div class="author">
+            <img src="../assets/images/emihle.JPG" alt="sq-sample29" />
+            <h4>Emihle <span>- Classmate</span></h4>
+          </div>
+        </figure>
+
         <figure class="snip1192">
           <blockquote>
             "Kago is a talented individual who has good attention to detail. He
             has the potential to do great things."
           </blockquote>
           <div class="author">
-            <img src="../assets/images/alex.jpg" alt="sq-sample29" />
-            <h5>Emihle<span>Classmate</span></h5>
+            <img src="src/assets/images/alex.jpg" alt="sq-sample29" />
+            <h4>Alex <span>- Lecturer</span></h4>
           </div>
         </figure>
-
-        <!-- <figure class="snip1192">
-  <blockquote>"Kago is a talented individual who has good attention to detail. He has the potential to do great things."</blockquote>
-  <div class="author">
-    <img src="src/assets/images/alex.jpg" alt="sq-sample29"/>
-    <h5>Alex<span> Lecturer</span></h5>
-  </div>
-</figure> -->
       </div>
 
       <hr />
-      <br /><br /><br />
 
       <div class="contact-section">
         <section id="contact">
-          <h3 class="section-header">Feel free to get in touch with me.</h3>
+          <h3 class="section-header">
+            Feel free to get in touch with me by filling in this form:
+          </h3>
 
           <div class="contact-wrapper">
             <!-- Left contact page -->
 
-            <form
-              id="contact-form"
-              class="form-horizontal"
-              role="form"
-              action="https://formspree.io/f/moqredrj"
-              method="POST"
-            >
+            <form id="contact-form" class="form-horizontal" role="form">
               <div class="form-group">
                 <div class="col-sm-12">
                   <input
@@ -248,81 +238,45 @@
                 required
               ></textarea>
 
+              <!-- <button class="btn btn-dark send-button" id="submit" type="submit" value="SEND"> -->
               <button
-                class="btn btn-secondary text-white send-button"
-                id="submit"
-                type="submit"
-                value="SEND"
+                type="button"
+                class="btn btn-secondary btn-lg btn-block text-dark"
+                style="background-color: #2b2a2e;"
               >
-                <div class="alt-send-button">
+                <div class="#">
                   <i class="fa fa-paper-plane"></i
-                  ><span class="send-text">SEND</span>
+                  ><span class="send-text"> SEND</span>
                 </div>
               </button>
-            </form>
+              </form>
+    
+            
+            <div class="social-icons">
+              <span title="Email"
+                ><a href="mailto:kagopooe@gmail.com">
+                  <span class="iconify" data-icon="entypo:email"></span></a
+              ></span>
+              <span title="Message me on Telegram"
+                ><a href="https://t.me/kagopooe">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:telegram-fill"
+                  ></span></a
+              ></span>
+              <span title="Github"
+                ><a href="https://t.me/kagopooe">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:github-fill"
+                  ></span
+                ></a>
+              </span>
+            </div> <hr />
 
-            <!-- Left contact page -->
-
-            <div class="direct-contact-container">
-              <ul class="contact-list">
-                <li class="list-item">
-                  <i class="fa fa-map-marker fa-2x"
-                    ><span class="contact-text place"
-                      >Cape Town, South Africa</span
-                    ></i
-                  >
-                </li>
-
-                <li class="list-item">
-                  <i class="fa fa-telegram fa-2x"
-                    ><span class="contact-text telegram"
-                      ><a href="tel:1-212-555-5555" title="Telegram"
-                        >Telegram</a
-                      ></span
-                    ></i
-                  >
-                </li>
-
-                <li class="list-item">
-                  <i class="fa fa-envelope fa-2x"
-                    ><span class="contact-text gmail"
-                      ><a href="mailto:#" title="Send me an email"
-                        >kagopooe@gmail.com</a
-                      ></span
-                    ></i
-                  >
-                </li>
-              </ul>
-
-              <hr />
-              <ul class="social-media-list">
-                <li>
-                  <a href="#" target="_blank" class="contact-icon">
-                    <i class="fa fa-github" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="contact-icon">
-                    <i class="fa fa-pie-chart" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="contact-icon">
-                    <i class="fa fa-twitter" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank" class="contact-icon">
-                    <i class="fa fa-youtube" aria-hidden="true"></i
-                  ></a>
-                </li>
-              </ul>
-              <hr />
-
-              <!-- <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div> -->
-            </div>
           </div>
         </section>
+        
       </div>
     </main>
   </div>
@@ -359,8 +313,8 @@ main {
     background: linear-gradient(to right top, white 50%, grey 50%);
     background-size: 100% calc(100% - 100vh + 129px);
     background-repeat: no-repeat;
-    position: fixed;
-    /* z-index: 2; */
+    /* position: fixed; */
+    z-index: 999;
   }
 
   body:before {
@@ -369,7 +323,7 @@ main {
     top: 128px;
     bottom: 0;
     width: 100%;
-    z-index: -2;
+    z-index: -999;
     background: #151415;
   }
 }
@@ -377,12 +331,12 @@ main {
 body {
   font-size: 1 rem;
   color: white;
-  position: relative;
+  /* position: relative; */
 }
 main {
   padding: 10px 10%;
   box-sizing: border-box;
-  z-index: -10;
+  /* z-index: -10; */
 }
 
 header {
@@ -413,7 +367,7 @@ header h3 {
 
 #about-me img {
   float: inline-start;
-  z-index: -1;
+  /* z-index: ; */
   position: relative;
 }
 
@@ -453,6 +407,55 @@ hr {
   /* padding-right: 10px; */
   padding: 15px 15px 0px 15px;
 }
+
+.author img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.author h4 {
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.section-header {
+  padding: 5px 0px 15px;
+}
+
+button {
+  /* color: black */
+  background: black;
+  color: white;
+  padding-top: 10px;
+}
+
+/* text-area {
+  padding-bottom: 10px;
+} */
+
+.social-icons {
+  font-size: 110px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+a,
+a:visited,
+a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: gray;
+}
 </style>
 
 <script>
@@ -470,85 +473,11 @@ export default {
   components: {},
 
   mounted() {
-    const slider = document.querySelector(".slider");
-    const nextBtn = document.querySelector(".next-btn");
-    const prevBtn = document.querySelector(".prev-btn");
-    const slides = document.querySelectorAll(".slide");
-    const slideIcons = document.querySelectorAll(".slide-icon");
-    const numberOfSlides = slides.length;
-    var slideNumber = 0;
 
-    //image slider next button
-    nextBtn.addEventListener("click", () => {
-      slides.forEach((slide) => {
-        slide.classList.remove("active");
-      });
-      slideIcons.forEach((slideIcon) => {
-        slideIcon.classList.remove("active");
-      });
 
-      slideNumber++;
 
-      if (slideNumber > numberOfSlides - 1) {
-        slideNumber = 0;
-      }
 
-      slides[slideNumber].classList.add("active");
-      slideIcons[slideNumber].classList.add("active");
-    });
 
-    //image slider previous button
-    prevBtn.addEventListener("click", () => {
-      slides.forEach((slide) => {
-        slide.classList.remove("active");
-      });
-      slideIcons.forEach((slideIcon) => {
-        slideIcon.classList.remove("active");
-      });
-
-      slideNumber--;
-
-      if (slideNumber < 0) {
-        slideNumber = numberOfSlides - 1;
-      }
-
-      slides[slideNumber].classList.add("active");
-      slideIcons[slideNumber].classList.add("active");
-    });
-
-    //image slider autoplay
-    var playSlider;
-
-    var repeater = () => {
-      playSlider = setInterval(function () {
-        slides.forEach((slide) => {
-          slide.classList.remove("active");
-        });
-        slideIcons.forEach((slideIcon) => {
-          slideIcon.classList.remove("active");
-        });
-
-        slideNumber++;
-
-        if (slideNumber > numberOfSlides - 1) {
-          slideNumber = 0;
-        }
-
-        slides[slideNumber].classList.add("active");
-        slideIcons[slideNumber].classList.add("active");
-      }, 4000);
-    };
-    repeater();
-
-    //stop the image slider autoplay on mouseover
-    slider.addEventListener("mouseover", () => {
-      clearInterval(playSlider);
-    });
-
-    //start the image slider autoplay again on mouseout
-    slider.addEventListener("mouseout", () => {
-      repeater();
-    });
   },
 };
 </script>
