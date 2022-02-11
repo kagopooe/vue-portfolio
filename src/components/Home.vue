@@ -90,8 +90,8 @@
           <p>
             Made a Calculator using Bootstrap and JavaScript. Used DOM manipuation to send data to the HTML and added code to give the calculator some functionality
           </p>
-          <a href="#" class="btn">Github</a>
-          <a href="#" class="btn">Live</a>
+          <a href="https://github.com/kagopooe/Calculator" target="_blank" class="btn">Github</a>
+          <a href="https://flamboyant-leavitt-93419a.netlify.app/" class="btn" target="_blank">Live</a>
         </div>
       </div>
       <div class="card">
@@ -102,8 +102,8 @@
           <p>
             Created a Reaction Game using a JavaScript Framework called Vue. The game measures the speed of the user's reaction time and reflexes in a simple manner
           </p>
-          <a href="#" class="btn">Github</a>
-          <a href="#" class="btn">Live</a>
+          <a href="https://github.com/kagopooe/reaction-game-vue" class="btn" target="_blank">Github</a>
+          <a href="https://unruffled-hugle-da54c4.netlify.app/" class="btn" target="_blank">Live</a>
         </div>
       </div>
       <div class="card">
@@ -114,8 +114,8 @@
           <p>
             Created a Pass Network visualization using Python and Pandas to derive insights from a local mid-tier football club. I used coding tools to generate the raw data. 
           </p>
-          <a href="#" class="btn">Github</a>
-          <a href="#" class="btn">Live</a>
+          <a href="#" class="btn" target="_blank">Github</a>
+          <a href="#" class="btn" target="_blank">Live</a>
         </div>
       </div>
       <div class="card">
@@ -126,8 +126,8 @@
           <p>
             Used a Python framework to extract pass information in order to gain specific data. The data was used to count a specific metric for a particular football team.
           </p>
-          <a href="#" class="btn">Github</a>
-          <a href="#" class="btn">Live</a>
+          <a href="#" class="btn" target="_blank">Github</a>
+          <a href="#" class="btn" target="_blank">Live</a>
         </div>
       </div>
       </div>
@@ -151,7 +151,7 @@
             developer. He is well spoken even though he is very reticent"
           </blockquote>
           <div class="author">
-            <img src="../assets/images/mbreda.JPG" />
+            <img src="../assets/images/mbreda.JPG">
             <h4>Mugammad <span>- Classmate</span></h4>
           </div>
         </figure>
@@ -162,7 +162,7 @@
             work ethic and an insatiable desire for achieving his goals."
           </blockquote>
           <div class="author">
-            <img src="../assets/images/ndeem.JPG" alt="sq-sample24" />
+            <!-- <img src="../assets/images/ndeem.JPG" /> -->
             <h4>Nadeem <span>- Classmate</span></h4>
           </div>
         </figure>
@@ -173,7 +173,7 @@
             career."
           </blockquote>
           <div class="author">
-            <img src="../assets/images/emihle.JPG" alt="sq-sample29" />
+            <img src="../assets/images/emihle.JPG" />
             <h4>Emihle <span>- Classmate</span></h4>
           </div>
         </figure>
@@ -184,7 +184,7 @@
             has the potential to do great things."
           </blockquote>
           <div class="author">
-            <img src="src/assets/images/alex.jpg" alt="sq-sample29" />
+            <img src="../assets/images/alex.jpg" alt="sq-sample29" />
             <h4>Alex <span>- Lecturer</span></h4>
           </div>
         </figure>
@@ -201,7 +201,8 @@
           <div class="contact-wrapper">
             <!-- Left contact page -->
 
-            <form id="contact-form" class="form-horizontal" role="form">
+            <form id="contact-form" class="form-horizontal" role="form" action="https://formspree.io/f/moqredrj"
+                method="POST">
               <div class="form-group">
                 <div class="col-sm-12">
                   <input
@@ -240,7 +241,7 @@
 
               <!-- <button class="btn btn-dark send-button" id="submit" type="submit" value="SEND"> -->
               <button
-                type="button"
+                type="submit"
                 class="btn btn-secondary btn-lg btn-block text-dark"
                 style="background-color: #2b2a2e;"
               >
@@ -254,18 +255,18 @@
             
             <div class="social-icons">
               <span title="Email"
-                ><a href="mailto:kagopooe@gmail.com">
+                ><a href="mailto:kagopooe@gmail.com" target="_blank">
                   <span class="iconify" data-icon="entypo:email"></span></a
               ></span>
               <span title="Message me on Telegram"
-                ><a href="https://t.me/kagopooe">
+                ><a href="https://t.me/kagopooe" target="_blank">
                   <span
                     class="iconify"
                     data-icon="akar-icons:telegram-fill"
                   ></span></a
               ></span>
               <span title="Github"
-                ><a href="https://t.me/kagopooe">
+                ><a href="https://github.com/kagopooe" target="_blank">
                   <span
                     class="iconify"
                     data-icon="akar-icons:github-fill"
