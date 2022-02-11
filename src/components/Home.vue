@@ -173,7 +173,7 @@
             career."
           </blockquote>
           <div class="author">
-            <img src="../assets/images/emihle.JPG" />
+            <img src="../assets/images/emihle1.JPG" />
             <h4>Emihle <span>- Classmate</span></h4>
           </div>
         </figure>
