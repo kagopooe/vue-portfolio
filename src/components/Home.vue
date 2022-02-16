@@ -151,7 +151,7 @@
             developer. He is well spoken even though he is very reticent"
           </blockquote>
           <div class="author">
-            <img src="../assets/images/mbreda.JPG">
+            <img src="../assets/images/mbreda.jpg">
             <h4>Mugammad <span>- Classmate</span></h4>
           </div>
         </figure>
@@ -162,7 +162,7 @@
             work ethic and an insatiable desire for achieving his goals."
           </blockquote>
           <div class="author">
-            <!-- <img src="../assets/images/ndeem.JPG" /> -->
+            <img src="../assets/images/ndeem.jpg" />
             <h4>Nadeem <span>- Classmate</span></h4>
           </div>
         </figure>
@@ -173,7 +173,7 @@
             career."
           </blockquote>
           <div class="author">
-            <img src="../assets/images/emihle1.JPG" />
+            <img src="../assets/images/emihle1.jpg" />
             <h4>Emihle <span>- Classmate</span></h4>
           </div>
         </figure>
