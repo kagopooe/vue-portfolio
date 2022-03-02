@@ -112,7 +112,7 @@
         </div>
         <div class="card-body">
           <p>
-            Created a Pass Network visualization using Python and Pandas to derive insights from a local mid-tier football club. I used coding tools to generate the raw data. 
+            Created a Pass Network visualization using Python and Pandas to derive insights from a local football club. I used coding tools to generate the raw data. 
           </p>
           <a href="#" class="btn" target="_blank">Github</a>
           <a href="#" class="btn" target="_blank">Live</a>
@@ -346,7 +346,7 @@ header {
 
 header h2 {
   font-weight: bolder;
-  cursor: cell;
+  cursor: default;
   width: 407px;
 }
 
@@ -354,7 +354,7 @@ header h3 {
   font-style: italic;
   color: silver;
   margin-top: -5px;
-  cursor: cell;
+  cursor: default;
   width: 450px;
 }
 
@@ -374,7 +374,7 @@ header h3 {
 
 #about-text {
   margin: 85px 0px;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   list-style: none;
   padding-left: 1em;
   font-weight: bold;
